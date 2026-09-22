@@ -1,0 +1,15 @@
+services:
+  omniparser-video:
+    build: .
+    image: omniparser-video:latest
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+    volumes:
+      - ./input:/data/input
+      - ./output:/data/output
+    command: ["/data/input/video.mp4", "-o", "/data/output/result.json", "--fps", "1"]

@@ -1,0 +1,20 @@
+services:
+  omniparser-video-cpu:
+    build:
+      context: .
+      dockerfile: Dockerfile.cpu
+    image: omniparser-video:cpu
+    volumes:
+      - ./input:/data/input
+      - ./output:/data/output
+      - ./cache/easyocr:/root/.EasyOCR
+      - ./cache/paddleocr:/root/.paddleocr
+      - ./cache/hf:/app/hf_cache
+    command:
+      [
+        "/data/input/video.mp4",
+        "-o", "/data/output/result.json",
+        "--fps", "0.33",
+        "--imgsz", "480",
+        "--no-captions",
+      ]

@@ -1,0 +1,195 @@
+{
+  "video_file": "video.mp4",
+  "source_fps": 29.97,
+  "requested_sample_fps": 0.33,
+  "total_source_frames": 277,
+  "frames_processed": 4,
+  "box_threshold": 0.05,
+  "iou_threshold": 0.7,
+  "total_processing_time_sec": 11.78,
+  "frames": [
+    {
+      "frame_index": 0,
+      "processed_index": 0,
+      "timestamp_sec": 0.0,
+      "timestamp": "0:00:00",
+      "processing_time_sec": 3.393,
+      "elements": [
+        {
+          "type": "text",
+          "bbox": [
+            0.0,
+            -0.008333333767950535,
+            0.08906249701976776,
+            0.11666666716337204
+          ],
+          "interactivity": false,
+          "content": "ringe",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.1459898054599762,
+            0.9180939793586731,
+            0.17936858534812927,
+            0.9754047989845276
+          ],
+          "interactivity": true,
+          "content": null,
+          "source": "box_yolo_content_yolo"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.1876058578491211,
+            0.9081892371177673,
+            0.22446508705615997,
+            0.9798262119293213
+          ],
+          "interactivity": true,
+          "content": null,
+          "source": "box_yolo_content_yolo"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.22642502188682556,
+            0.9096835851669312,
+            0.24928507208824158,
+            0.9508148431777954
+          ],
+          "interactivity": true,
+          "content": null,
+          "source": "box_yolo_content_yolo"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.2502065598964691,
+            0.9093136191368103,
+            0.27142563462257385,
+            0.9491785764694214
+          ],
+          "interactivity": true,
+          "content": null,
+          "source": "box_yolo_content_yolo"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.0,
+            0.021507058292627335,
+            0.14584557712078094,
+            0.10915201902389526
+          ],
+          "interactivity": true,
+          "content": null,
+          "source": "box_yolo_content_yolo"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.24882011115550995,
+            0.9509992599487305,
+            0.2663342356681824,
+            0.9861202836036682
+          ],
+          "interactivity": true,
+          "content": null,
+          "source": "box_yolo_content_yolo"
+        }
+      ],
+      "element_count": 7
+    },
+    {
+      "frame_index": 91,
+      "processed_index": 1,
+      "timestamp_sec": 3.036,
+      "timestamp": "0:00:03.036370",
+      "processing_time_sec": 1.808,
+      "elements": [
+        {
+          "type": "text",
+          "bbox": [
+            0.0,
+            -0.008333333767950535,
+            0.08906249701976776,
+            0.11666666716337204
+          ],
+          "interactivity": false,
+          "content": "ringe",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.0,
+            0.021963471546769142,
+            0.14377771317958832,
+            0.10717441886663437
+          ],
+          "interactivity": true,
+          "content": null,
+          "source": "box_yolo_content_yolo"
+        }
+      ],
+      "element_count": 2
+    },
+    {
+      "frame_index": 182,
+      "processed_index": 2,
+      "timestamp_sec": 6.073,
+      "timestamp": "0:00:06.072739",
+      "processing_time_sec": 1.767,
+      "elements": [
+        {
+          "type": "icon",
+          "bbox": [
+            0.0,
+            0.019574875012040138,
+            0.1475556194782257,
+            0.1076035425066948
+          ],
+          "interactivity": true,
+          "content": null
+        }
+      ],
+      "element_count": 1
+    },
+    {
+      "frame_index": 273,
+      "processed_index": 3,
+      "timestamp_sec": 9.109,
+      "timestamp": "0:00:09.109109",
+      "processing_time_sec": 4.652,
+      "elements": [
+        {
+          "type": "text",
+          "bbox": [
+            0.0,
+            -0.011111111380159855,
+            0.08749999850988388,
+            0.11944444477558136
+          ],
+          "interactivity": false,
+          "content": "ringe",
+          "source": "box_ocr_content_ocr"
+        },
+        {
+          "type": "icon",
+          "bbox": [
+            0.0,
+            0.018417906016111374,
+            0.14746756851673126,
+            0.1071731373667717
+          ],
+          "interactivity": true,
+          "content": null,
+          "source": "box_yolo_content_yolo"
+        }
+      ],
+      "element_count": 2
+    }
+  ]
+}
